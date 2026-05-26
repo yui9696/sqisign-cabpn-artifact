@@ -1,0 +1,28 @@
+# Rust
+target/
+**/*.rs.bk
+Cargo.lock
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.venv/
+venv/
+
+# Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local benchmark scratch
+bench/out/
+*.tmp

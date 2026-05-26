@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite the companion preprint."
+title: "CA-BPN: A Cache-Aware Batch-Size Policy for Constant-Time Normalization in Isogeny Pipelines (artifact)"
+authors:
+  - family-names: "Tabei"
+    given-names: "Moe"
+    email: "tabei@ryun.jp"
+    affiliation: "Independent Researcher"
+type: software
+license: MIT
+repository-code: "https://github.com/moetabei/sqisign-cabpn-artifact"
+date-released: 2026-05-26
+preferred-citation:
+  type: article
+  title: "Formal Guarantees and Microarchitectural Scheduling for Constant-Time Normalization in Theta-Coordinate Isogeny Pipelines"
+  authors:
+    - family-names: "Tabei"
+      given-names: "Moe"
+      email: "tabei@ryun.jp"
+      affiliation: "Independent Researcher"
+  year: 2026
+  month: 3
+  url: "https://eprint.iacr.org/2026/XXXX"
+  notes: "Cryptology ePrint Archive, Paper 2026/XXXX (placeholder — update with assigned ePrint ID)."

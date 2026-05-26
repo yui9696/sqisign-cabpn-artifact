@@ -1,0 +1,10 @@
+[package]
+name = "rust_harness"
+version = "0.1.0"
+edition = "2024"
+description = "CA-BPN scheduling-policy harness on a toy 64-bit prime field (companion artifact to ePrint preprint)."
+license = "MIT"
+
+[profile.release]
+lto = true
+codegen-units = 1

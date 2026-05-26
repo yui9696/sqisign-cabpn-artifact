@@ -1,0 +1,5 @@
+alpha_milli	state_bytes	k_selected	mean_ms_cabpn	mean_ms_fixedk
+300	512	32	25.0157	24.7391
+300	2048	8	42.1867	40.0590
+700	512	64	22.2646	22.2674
+700	2048	16	29.9182	31.8617
