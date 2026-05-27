@@ -1,13 +1,14 @@
 # CA-BPN: A Cache-Aware Batch-Size Policy for Constant-Time Normalization in Isogeny Pipelines
 
 [![License: MIT](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-[![Paper](https://img.shields.io/badge/paper-ePrint%202026%2FXXXX-lightgrey.svg)](https://eprint.iacr.org/2026/XXXX)
+[![Paper](https://img.shields.io/badge/paper-PDF-lightgrey.svg)](docs/paper.pdf)
 [![Rust](https://img.shields.io/badge/rust-edition%202024-orange.svg)](bench/rust_harness/Cargo.toml)
 
-> Companion artifact to the ePrint preprint
+> Companion artifact to the manuscript
 > **"Formal Guarantees and Microarchitectural Scheduling for Constant-Time
-> Normalization in Theta-Coordinate Isogeny Pipelines"** — Moe Tabei, 2026.
-> [`docs/paper.pdf`](docs/paper.pdf).
+> Normalization in Theta-Coordinate Isogeny Pipelines"** — Moe Tabei, March 2026.
+> The paper is included as [`docs/paper.pdf`](docs/paper.pdf) in this
+> repository.
 
 **CA-BPN** (Cache-Aware Batch-size Policy for Normalization) is a deterministic,
 cache-budgeted heuristic for choosing the batch size of inverse-recovery
@@ -31,7 +32,7 @@ read it before drawing platform-level conclusions from the numbers here.
 | [`bench/linux/`](bench/linux) | x86_64 Linux `perf stat` driver for hardware-counter measurements (cycles, instructions, L1D / LLC references and misses). | Available on every cloud guest — many do not expose perf counters. See [`bench/linux/README.md`](bench/linux/README.md). |
 | [`bench/aws/`](bench/aws) | One-click EC2 / EC2-`*.metal` scripts that provision an instance, run the sweep, copy results back, and terminate. With explicit cost limiters. | Free. The scripts launch real EC2 instances — review them before use. |
 | [`bench/results/`](bench/results) | Sample sweep outputs from Apple M2 (Feb 2026 measurements) for reference. | Production benchmarks. They demonstrate the policy shape on one platform. |
-| [`docs/paper.pdf`](docs/paper.pdf) | The companion preprint (March 2026 revision). | The single source of truth — once an ePrint ID is assigned, the canonical link will be in [`CITATION.cff`](CITATION.cff). |
+| [`docs/paper.pdf`](docs/paper.pdf) | The companion manuscript (March 2026 revision). | A peer-reviewed publication. See [`CITATION.cff`](CITATION.cff) for the citation entry. |
 | [`docs/algorithms.md`](docs/algorithms.md) | Markdown extract of Algorithm 1 and Proposition 1. | The full paper. See [`docs/paper.pdf`](docs/paper.pdf). |
 
 ## The CA-BPN policy in one screen
@@ -179,8 +180,8 @@ is to swap in your target's real field arithmetic and re-run the sweeps.
 ```
 Moe Tabei. "Formal Guarantees and Microarchitectural Scheduling for
 Constant-Time Normalization in Theta-Coordinate Isogeny Pipelines."
-Cryptology ePrint Archive, Paper 2026/XXXX, March 2026.
-https://eprint.iacr.org/2026/XXXX     [placeholder — to be updated on assignment]
+Self-published manuscript, March 2026.
+https://github.com/yui9696/sqisign-cabpn-artifact/blob/main/docs/paper.pdf
 ```
 
 The paper:
@@ -193,8 +194,7 @@ The paper:
   (**Proposition 2**).
 - Provides the reproducibility protocol (this repository).
 
-A [BibTeX entry](CITATION.cff) is provided. Once an ePrint ID is assigned,
-the canonical link will be propagated through that file.
+A citation entry is provided in [`CITATION.cff`](CITATION.cff).
 
 ## About the author
 
@@ -214,6 +214,6 @@ is the primary deliverable; the paper is its formal companion.
 Open to remote cryptography research and smart-contract security roles
 globally.
 
-📬 **tabei@ryun.jp** &nbsp;·&nbsp; ePrint preprint:
+📬 **tabei@ryun.jp** &nbsp;·&nbsp; Paper:
 [`docs/paper.pdf`](docs/paper.pdf) &nbsp;·&nbsp;
 GitHub Issues for technical questions on the harness.

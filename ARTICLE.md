@@ -2,7 +2,8 @@
 
 > *Companion writeup to* **"Formal Guarantees and Microarchitectural Scheduling
 > for Constant-Time Normalization in Theta-Coordinate Isogeny Pipelines"**
-> *(ePrint preprint, March 2026) and the open-source artifact at*
+> *(manuscript, March 2026 — included in the repository as `docs/paper.pdf`)
+> and the open-source artifact at*
 > [github.com/yui9696/sqisign-cabpn-artifact][repo].
 
 [repo]: https://github.com/yui9696/sqisign-cabpn-artifact
@@ -272,8 +273,8 @@ is useful.
 So the work is being published the other way: implementation first,
 reproducibility first, paper as the formal companion. The repository is
 the primary deliverable. The paper is in [`docs/paper.pdf`][paper] of the
-repository (and will be on ePrint once the ID is assigned). The harness
-runs in seconds on a laptop.
+repository, alongside the code, scripts, and sample measurements. The
+harness runs in seconds on a laptop.
 
 [paper]: https://github.com/yui9696/sqisign-cabpn-artifact/blob/main/docs/paper.pdf
 
