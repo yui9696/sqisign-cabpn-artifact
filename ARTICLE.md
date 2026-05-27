@@ -3,9 +3,9 @@
 > *Companion writeup to* **"Formal Guarantees and Microarchitectural Scheduling
 > for Constant-Time Normalization in Theta-Coordinate Isogeny Pipelines"**
 > *(ePrint preprint, March 2026) and the open-source artifact at*
-> [github.com/moetabei/sqisign-cabpn-artifact][repo].
+> [github.com/yui9696/sqisign-cabpn-artifact][repo].
 
-[repo]: https://github.com/moetabei/sqisign-cabpn-artifact
+[repo]: https://github.com/yui9696/sqisign-cabpn-artifact
 
 ---
 
@@ -135,7 +135,7 @@ Everything below is from the [GitHub repository][repo].
 
 ```bash
 brew install hyperfine
-git clone https://github.com/moetabei/sqisign-cabpn-artifact
+git clone https://github.com/yui9696/sqisign-cabpn-artifact
 cd sqisign-cabpn-artifact
 make build
 make sweep
@@ -169,7 +169,7 @@ ordinary EC2 guests do not. Three independent cost limiters (an in-instance
 explicit `terminate-instances` on script exit) make it safe to run
 ad-hoc — see the [AWS README][aws] before pulling the trigger.
 
-[aws]: https://github.com/moetabei/sqisign-cabpn-artifact/blob/main/bench/aws/README.md
+[aws]: https://github.com/yui9696/sqisign-cabpn-artifact/blob/main/bench/aws/README.md
 
 ## Sample results (Apple M2)
 
@@ -275,7 +275,7 @@ the primary deliverable. The paper is in [`docs/paper.pdf`][paper] of the
 repository (and will be on ePrint once the ID is assigned). The harness
 runs in seconds on a laptop.
 
-[paper]: https://github.com/moetabei/sqisign-cabpn-artifact/blob/main/docs/paper.pdf
+[paper]: https://github.com/yui9696/sqisign-cabpn-artifact/blob/main/docs/paper.pdf
 
 If you build on this, I'd love to know. If you find an error in the
 policy, the proof, or the harness, I'd love to know *more*. The repository

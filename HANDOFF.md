@@ -77,7 +77,7 @@ sed -i '' "s|2026/XXXX|${EPRINT_ID}|g" README.md ARTICLE.md CITATION.cff
 (macOS `sed` needs the empty `''` after `-i`; on Linux drop it.)
 
 Also update the GitHub URL in `CITATION.cff` (`repository-code`) if your
-username differs from `moetabei`. Same for the `[repo]:` link reference at
+username differs from `yui9696`. Same for the `[repo]:` link reference at
 the top of `ARTICLE.md` and the AWS link in the same file.
 
 ### 3. Announce
@@ -88,14 +88,14 @@ the top of `ARTICLE.md` and the AWS link in the same file.
 > constant-time normalization in isogeny pipelines (SQIsign / Qlapoti).
 > Working-set bound, reproducible Mac + Linux + AWS sweeps, companion ePrint
 > preprint. Implementation-first.
-> https://github.com/moetabei/sqisign-cabpn-artifact
+> https://github.com/yui9696/sqisign-cabpn-artifact
 
 (279 chars including the URL — adjust handle if different.)
 
 #### Paste-ready Hacker News submission
 
 - **Title:** `CA-BPN: cache-aware batch scheduling for constant-time isogeny normalization`
-- **URL:** `https://github.com/moetabei/sqisign-cabpn-artifact`
+- **URL:** `https://github.com/yui9696/sqisign-cabpn-artifact`
 - **First comment (post immediately after submission to seed discussion):**
   ```
   Author here. This is the open-source companion to a paper that didn't make
