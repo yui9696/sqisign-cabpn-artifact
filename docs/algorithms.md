@@ -1,7 +1,7 @@
 # CA-BPN algorithms (extract)
 
-Markdown extract of Algorithm 1 and Proposition 1 from the companion preprint
-[`docs/paper.pdf`](paper.pdf). The full formal treatment — including the
+Markdown extract of Algorithm 1 and Proposition 1 from the companion manuscript
+[`paper.pdf`](paper.pdf). The full formal treatment — including the
 correctness theorem for delayed normalization (Theorem 1) and the constant-time
 template assumptions (Proposition 2) — lives in the paper.
 
